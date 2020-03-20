@@ -1,6 +1,6 @@
 let url = "http://logger.io/log";
-logger = message => {
+log = message => {
   //send http request
   console.log(message);
 };
-module.export.log = log;
+module.exports = log;
